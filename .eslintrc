@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "no-unused-vars": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "env": {
+        "browser": true,
+        "node": true
+      }
+    }
+  ]
+}
